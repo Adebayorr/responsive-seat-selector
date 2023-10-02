@@ -1,0 +1,24 @@
+{
+  "name": "responsive-seat-selector",
+  "version": "1.0.0",
+  "description": "Building responsive UI for dynamic seat reservation",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "'Raheem Adebayor'",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adebayorr/responsive-seat-selector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Adebayorr/responsive-seat-selector/issues"
+  },
+  "homepage": "https://github.com/Adebayorr/responsive-seat-selector#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.68.0"
+  }
+}
