@@ -1,0 +1,22 @@
+.container {
+    width: 100vw;
+    max-width: 800px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 250px 250px ;
+    margin: 0 auto;
+    
+
+    .vvip-seats {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    // .vip-seats {
+    //     grid-area: vip-seats;
+    // }
+
+    // .reg-seats {
+    //     grid-area: reg-seats;
+    // }
+}

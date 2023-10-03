@@ -1,0 +1,18 @@
+.container {
+  width: 100vw;
+  max-width: 800px;
+  height: 500px;
+  display: grid;
+  grid-template-areas: "vip-seats vip-seats" "vvip-seat reg-seats";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 200px 1fr;
+}
+.container .vvip-seats {
+  grid-area: vvip-seats;
+}
+.container .vip-seats {
+  grid-area: vip-seats;
+}
+.container .reg-seats {
+  grid-area: reg-seats;
+}

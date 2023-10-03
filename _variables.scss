@@ -1,0 +1,22 @@
+// seat colors
+$primary : #187382;
+$secondary : #937627;
+$error : #703067;
+
+$colors : (
+    "primary": $primary,
+    "secondary": $secondary,
+    'error': $error,
+    "selected": #27478a,
+    'reserved': #11a1b4,
+    "available": #af3246,
+);
+
+$btn : (
+    'pd': 1.5rem,
+    'mg-top': 2rem,
+    'fs': 1.2rem,
+    'ta': center,
+    );
+    
+@debug map-get($colors, 'available')
