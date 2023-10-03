@@ -8,4 +8,12 @@
 
 .seats {
   background-color: #187382;
+  display: flex;
+  width: 100vw;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.seats div {
+  margin: 10px;
+  background-color: #937627;
 }
